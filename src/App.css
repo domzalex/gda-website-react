@@ -12,7 +12,7 @@ body {
   background-size: cover; */
   background-color: rgb(20,20,20);
   height: 100vh;
-  color: rgb(205,205,205);
+  color: rgb(235,235,235);
   font-family: 'Futura', sans-serif;
 }
 
@@ -80,14 +80,14 @@ nav ul {
   left: 0;
   height: 125px;
   width: 100%;
-  background-color: rgba(205,205,205,0.4);
+  background-color: rgba(235,235,235,0.4);
   z-index: -1;
   transform: scale(0.01, 0.5);
   transform-origin: left;
   transition: all 0.2s ease;
 }
 .social-links:hover::before {
-  background-color: rgb(205,205,205);
+  background-color: rgb(235,235,235);
   transform: scale(1, 0.7);
 }
 .social-links:hover .fab,
@@ -102,7 +102,7 @@ nav ul {
 }
 .fab, .fas {
   font-size: 28px;
-  color: rgba(205,205,205,0.4);
+  color: rgba(235,235,235,0.4);
   transition: 0.2s ease;
 }
 .fab:hover, .fas:hover {
@@ -112,23 +112,23 @@ nav ul {
 .nav-link {
   display: inline-block;
   text-decoration: none;
-  color: rgba(205,205,205,0.4);
+  color: rgba(235,235,235,0.4);
   margin: 0 35px;
   transition: color 0.2s ease;
 }
 .home-link {
   text-decoration: none;
-  color: rgb(205,205,205);
+  color: rgb(235,235,235);
   font-family: 'Futura';
   font-size: 16px;
   margin: 0 25px 0 0;
 }
 .nav-link:hover {
-  color: rgb(205,205,205);
+  color: rgb(235,235,235);
 }
 
 .selected {
-  color: rgb(205,205,205);
+  color: rgb(235,235,235);
 }
 
 
@@ -155,7 +155,7 @@ h1 {
 /*************************/
 
 .home-two {
-  background-color: rgb(205,205,205);
+  background-color: rgb(235,235,235);
 }
 .home-two h1 {
   color: rgb(20,20,20);
@@ -185,7 +185,7 @@ h1 {
 
 .contact-card {
   width: 500px;
-  background-color: rgb(205,205,205);
+  background-color: rgb(235,235,235);
   color: rgb(20,20,20);
   border-radius: 10px;
   border-bottom: solid 5px rgb(177, 54, 54);
@@ -252,7 +252,7 @@ h1 {
   max-width: 1700px;
   height: 60%;
   max-height: 900px;
-  background-color: rgb(205,205,205);
+  background-color: rgb(235,235,235);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -365,7 +365,7 @@ h1 {
   max-width: 320px;
   width: 25%;
   height: 400px;
-  background-color: rgb(205,205,205);
+  background-color: rgb(235,235,235);
   border-radius: 10px;
   border-bottom: solid 5px rgb(177, 54, 54);
   margin: 0px 10px;
@@ -385,9 +385,9 @@ h1 {
   align-items: center;
   justify-content: center;
   background-color: rgb(20,20,20);
-  color: rgb(205,205,205);
+  color: rgb(235,235,235);
   border-radius: 12px;
-  border: solid 5px rgb(205,205,205);
+  border: solid 5px rgb(235,235,235);
   padding: 10px;
   text-align: center;
   font-size: 24px;
@@ -426,8 +426,8 @@ iframe,
 .music-carousel {
   margin-top: 15px;
   box-sizing: initial;
-  background-color: rgb(205,205,205);
-  border: solid 5px rgb(205,205,205);
+  background-color: rgb(235,235,235);
+  border: solid 5px rgb(235,235,235);
   box-shadow: 0px 10px 20px rgba(0,0,0,0.5);
 }
 
