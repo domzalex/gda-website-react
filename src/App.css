@@ -5,15 +5,15 @@
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&family=Yellowtail&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@900&display=swap');
 
 body {
   /* background: url('https://i.ibb.co/L8CVWfw/gda-bg-1.jpg') no-repeat center center fixed;
   background-size: cover; */
-  background-color: rgb(20,20,20);
+  background-color: rgb(25,25,25);
   height: 100vh;
-  color: rgb(235,235,235);
-  font-family: 'Futura', sans-serif;
+  color: rgb(245,245,245);
+  font-family: 'Nunito Sans', sans-serif;
 }
 
 section {
@@ -51,7 +51,7 @@ footer a {
 
 nav {
   position: fixed;
-  background-color: rgb(20,20,20);
+  background-color: rgb(25,25,25);
   width: 100vw;
   height: 125px;
   padding: 0 30px;
@@ -80,19 +80,19 @@ nav ul {
   left: 0;
   height: 125px;
   width: 100%;
-  background-color: rgba(235,235,235,0.4);
+  background-color: rgba(245,245,245,0.4);
   z-index: -1;
   transform: scale(0.01, 0.5);
   transform-origin: left;
   transition: all 0.2s ease;
 }
 .social-links:hover::before {
-  background-color: rgb(235,235,235);
+  background-color: rgb(245,245,245);
   transform: scale(1, 0.7);
 }
 .social-links:hover .fab,
 .social-links:hover .fas {
-  color: rgb(20,20,20);
+  color: rgb(25,25,25);
 }
 .social-links li {
   margin: 0 15px;
@@ -102,7 +102,7 @@ nav ul {
 }
 .fab, .fas {
   font-size: 28px;
-  color: rgba(235,235,235,0.4);
+  color: rgba(245,245,245,0.4);
   transition: 0.2s ease;
 }
 .fab:hover, .fas:hover {
@@ -112,23 +112,23 @@ nav ul {
 .nav-link {
   display: inline-block;
   text-decoration: none;
-  color: rgba(235,235,235,0.4);
+  color: rgba(245,245,245,0.4);
   margin: 0 35px;
   transition: color 0.2s ease;
 }
 .home-link {
   text-decoration: none;
-  color: rgb(235,235,235);
-  font-family: 'Futura';
+  color: rgb(245,245,245);
+  font-family: 'Nunito Sans';
   font-size: 16px;
   margin: 0 25px 0 0;
 }
 .nav-link:hover {
-  color: rgb(235,235,235);
+  color: rgb(245,245,245);
 }
 
 .selected {
-  color: rgb(235,235,235);
+  color: rgb(245,245,245);
 }
 
 
@@ -155,10 +155,10 @@ h1 {
 /*************************/
 
 .home-two {
-  background-color: rgb(235,235,235);
+  background-color: rgb(245,245,245);
 }
 .home-two h1 {
-  color: rgb(20,20,20);
+  color: rgb(25,25,25);
 }
 .home-three {
   position: relative;
@@ -185,8 +185,8 @@ h1 {
 
 .contact-card {
   width: 500px;
-  background-color: rgb(235,235,235);
-  color: rgb(20,20,20);
+  background-color: rgb(245,245,245);
+  color: rgb(25,25,25);
   border-radius: 10px;
   border-bottom: solid 5px rgb(177, 54, 54);
   display: flex;
@@ -213,7 +213,7 @@ h1 {
 }
 
 .contact-link {
-  color: rgb(20,20,20);
+  color: rgb(25,25,25);
   display: inline-block;
   text-decoration: none;
   font-size: 20px;
@@ -228,7 +228,7 @@ h1 {
   left: 0px;
   height: 2px;
   width: 100%;
-  background-color: rgb(20,20,20);
+  background-color: rgb(25,25,25);
   transform: scaleX(0);
   transform-origin: center;
   transition: transform 0.3s ease;
@@ -252,7 +252,7 @@ h1 {
   max-width: 1700px;
   height: 60%;
   max-height: 900px;
-  background-color: rgb(235,235,235);
+  background-color: rgb(245,245,245);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -276,13 +276,13 @@ h1 {
 }
 
 .event-section h1 {
-  font-family: 'Futura', sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   font-size: 24px;
 }
 
 .event-header {
   list-style: none;
-  background-color: rgb(20,20,20);
+  background-color: rgb(25,25,25);
   width: 100%;
   max-width: 1700px;
   display: flex;
@@ -321,8 +321,8 @@ h1 {
 
 .event li {
   font-size: 16px;
-  color: rgb(20,20,20);
-  border-bottom: solid 2px rgb(20,20,20);
+  color: rgb(25,25,25);
+  border-bottom: solid 2px rgb(25,25,25);
   padding: 5px 10px;
 }
 
@@ -365,11 +365,11 @@ h1 {
   max-width: 320px;
   width: 25%;
   height: 400px;
-  background-color: rgb(235,235,235);
+  background-color: rgb(245,245,245);
   border-radius: 10px;
   border-bottom: solid 5px rgb(177, 54, 54);
   margin: 0px 10px;
-  color: rgb(20,20,20);
+  color: rgb(25,25,25);
   text-align: center;
   box-shadow: 0px 10px 20px rgba(0,0,0,0.5);
   transition: .2s ease;
@@ -384,10 +384,10 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: rgb(20,20,20);
-  color: rgb(235,235,235);
+  background-color: rgb(25,25,25);
+  color: rgb(245,245,245);
   border-radius: 12px;
-  border: solid 5px rgb(235,235,235);
+  border: solid 5px rgb(245,245,245);
   padding: 10px;
   text-align: center;
   font-size: 24px;
@@ -426,8 +426,8 @@ iframe,
 .music-carousel {
   margin-top: 15px;
   box-sizing: initial;
-  background-color: rgb(235,235,235);
-  border: solid 5px rgb(235,235,235);
+  background-color: rgb(245,245,245);
+  border: solid 5px rgb(245,245,245);
   box-shadow: 0px 10px 20px rgba(0,0,0,0.5);
 }
 
@@ -436,8 +436,8 @@ iframe,
   border-radius: 7px;
 }
 .music-carousel button.control-next.control-arrow::before {
-  border-left: 12px solid rgb(20,20,20);
+  border-left: 12px solid rgb(25,25,25);
 }
 .music-carousel button.control-prev.control-arrow::before {
-  border-right: 12px solid rgb(20,20,20);
+  border-right: 12px solid rgb(25,25,25);
 }
